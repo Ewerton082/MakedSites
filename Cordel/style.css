@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Sriracha;
+    src: url(fonts/Sriracha-Regular.ttf);
+}
+
+@font-face {
+    font-family: Passion;
+    src: url(fonts/PassionOne-Bold.ttf);
+}
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-family: Sriracha, sans-serif;
+}
+
+body > header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 65px;
+    text-align: center;
+}
+
+body > header > h1{
+    font: 10em Passion;
+    text-shadow: 1px 1px #ffffff8e;
+    
+}
+
+body > header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin-bottom: -40px;
+}
+
+body > header > p > a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;   
+}
+
+body > header > p > a:hover{
+    color: wheat;
+}
