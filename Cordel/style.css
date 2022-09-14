@@ -1,49 +1,101 @@
 @font-face {
-    font-family: Sriracha;
-    src: url(fonts/Sriracha-Regular.ttf);
-}
-
-@font-face {
-    font-family: Passion;
+    font-family: passion;
     src: url(fonts/PassionOne-Bold.ttf);
 }
 
+@font-face {
+    font-family: sriracha;
+    src: url(fonts/Sriracha-Regular.ttf);
+}
 
 *{
     margin: 0px;
-    border: 0px;
     padding: 0px;
-    font-family: Sriracha, sans-serif;
 }
 
-body > header{
+header{
     background-color: black;
     color: white;
-    width: 100%;
-    padding: 65px;
     text-align: center;
+    padding: 45px;
 }
 
-body > header > h1{
-    font: 10em Passion;
-    text-shadow: 1px 1px #ffffff8e;
-    
+header > h1{
+    font-family: passion, cursive;
+    font-size: 11em;
 }
 
-body > header > p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+header > p{
     font-size: 1.3em;
-    margin-bottom: -40px;
-}
-
-body > header > p > a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;   
 }
 
-body > header > p > a:hover{
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header > p > a:hover{
     color: wheat;
+}
+
+section.sem-fundo{
+    font-size: 4em;
+    line-height: 2.5em;
+    font-family: sriracha;
+    background-color: white;
+}
+
+section.sem-fundo > p{
+    width: 40%;
+    padding: 35px;
+}
+
+section.paralax{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2.5em;
+    font-size: 3.6em;
+    font-family: sriracha;
+}
+
+section.paralax > p{
+    transform: translate(5%, 1.5%);
+    color: white;
+    width: 45%;
+    padding: 20px;
+    background-color: #0000005d;
+}
+
+section.paralax#paralax-flor{
+    background-image: url(img/fundo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.paralax#paralax-papel{
+    background-image: url(img/fundo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer > p > a:hover{
+    color:wheat;
 }
