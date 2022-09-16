@@ -49,6 +49,7 @@ font-size: 6rem;
 line-height: 2.5em;
 font-family: sriracha;
 background-color: white;
+text-shadow: 2px 1px rgba(0, 0, 0, 0.342);
 }
 
 section.sem-fundo > p{
@@ -63,6 +64,7 @@ padding-bottom: 11vh;
 line-height: 2em;
 font-size: 6rem;
 font-family: sriracha;
+text-shadow: 2px 1px rgba(255, 255, 255, 0.479);
 }
 
 section.paralax > p{
@@ -93,6 +95,7 @@ text-align: center;
 color: white;
 font-size: 2.3rem;
 padding: 12px;
+text-shadow: 2px 1px rgba(255, 255, 255, 0.329);
 }
 
 footer > p > a{
@@ -103,6 +106,17 @@ font-weight: bolder;
 
 footer > p > a:hover{
 color:wheat;
+}
+
+@media (max-width:1850px) {
+
+    html{
+        font-size: 7.6px;
+    }
+
+    section.sem-fundo > p , section.paralax > p {
+        width: 45%;
+    }   
 }
 
 @media (max-width:1025px) {
