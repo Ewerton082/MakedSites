@@ -13,101 +13,132 @@
     padding: 0px;
 }
 
-@media (min-width: 1310) {
-    
+html{
+    font-size: 10px;
+}
 
+header{
+background-color: black;
+color: white;
+text-align: center;
+padding: 45px;
+}
 
-    header{
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 45px;
+header > h1{
+font-family: passion, cursive;
+font-size: 18rem;
+}
+
+header > p{
+font-size: 1.9rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > p > a{
+text-decoration: none;
+color: white;
+font-weight: bolder;
+}
+
+header > p > a:hover{
+color: wheat;
+}
+
+section.sem-fundo{
+font-size: 6rem;
+line-height: 2.5em;
+font-family: sriracha;
+background-color: white;
+}
+
+section.sem-fundo > p{
+width: 40%;
+padding: 35px;
+}
+
+section.paralax{
+height: 80vh;
+padding-top: 11vh;
+padding-bottom: 11vh;
+line-height: 2em;
+font-size: 6rem;
+font-family: sriracha;
+}
+
+section.paralax > p{
+transform: translate(5%, 1.5%);
+color: white;
+width: 45%;
+padding: 20px;
+background-color: #0000005d;
+}
+
+section.paralax#paralax-flor{
+background-image: url(img/fundo1.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+section.paralax#paralax-papel{
+background-image: url(img/fundo2.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+footer{
+background-color: black;
+text-align: center;
+color: white;
+font-size: 2.3rem;
+padding: 12px;
+}
+
+footer > p > a{
+color: white;
+text-decoration: none;
+font-weight: bolder;
+}
+
+footer > p > a:hover{
+color:wheat;
+}
+
+@media (max-width:1025px) {
+
+    html{
+        font-size: 6px;
     }
 
-    header > h1{
-        font-family: passion, cursive;
-        font-size: 11em;
-    }
-
-    header > p{
-        font-size: 1.3em;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    header > p > a{
-        text-decoration: none;
-        color: white;
-        font-weight: bolder;
-    }
-
-    header > p > a:hover{
-        color: wheat;
-    }
-
-    section.sem-fundo{
-        font-size: 4em;
-        line-height: 2.5em;
-        font-family: sriracha;
-        background-color: white;
-    }
-
-    section.sem-fundo > p{
-        width: 40%;
-        padding: 35px;
-    }
-
-    section.paralax{
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-        line-height: 2.5em;
-        font-size: 3.6em;
-        font-family: sriracha;
-    }
-
-    section.paralax > p{
-        transform: translate(5%, 1.5%);
-        color: white;
+    section.sem-fundo > p , section.paralax > p {
         width: 45%;
-        padding: 20px;
-        background-color: #0000005d;
+    }   
+}
+
+@media (max-width:1025px) {
+
+    html{
+        font-size: 6px;
     }
 
-    section.paralax#paralax-flor{
-        background-image: url(img/fundo1.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
+    section.sem-fundo > p , section.paralax > p {
+        width: 45%;
+    }   
+}
+
+@media (max-width:425px) {
+
+    html{
+        font-size: 4px;
     }
 
-    section.paralax#paralax-papel{
-        background-image: url(img/fundo2.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
+    section.sem-fundo > p , section.paralax > p {
+        width: 50%;
+    }   
 
     footer{
-        background-color: black;
-        text-align: center;
-        color: white;
-        font-size: 1.2em;
-        padding: 12px;
-    }
-
-    footer > p > a{
-        color: white;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-
-    footer > p > a:hover{
-        color:wheat;
+        font-size: 3rem;
     }
 }
 
-@media (min-width: 650px) {
-    body{
-        background-color: green;
-    }
-    
-}
