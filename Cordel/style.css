@@ -144,7 +144,7 @@ color:wheat;
 @media (max-width:660px) {
 
     html{
-        font-size: 5.5px;
+        font-size: 4.3px;
     }
 
     section.sem-fundo > p , section.paralax > p {
@@ -156,10 +156,11 @@ color:wheat;
 @media (max-width:425px) {
 
     html{
-        font-size: 4px;
+        font-size: 4.2px;
     }
 
     section.sem-fundo > p , section.paralax > p {
+        line-height: 1.8em;
         width: 50%;
     }   
 
@@ -171,10 +172,11 @@ color:wheat;
 @media (max-width:300px) {
 
     html{
-        font-size: 4.2px;
+        font-size: 3.4px;
     }
 
     section.sem-fundo > p , section.paralax > p {
+        line-height: 2.5em;
         width: 65%;
     }   
 
