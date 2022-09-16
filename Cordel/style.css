@@ -127,6 +127,18 @@ color:wheat;
     }   
 }
 
+@media (max-width:660px) {
+
+    html{
+        font-size: 5.5px;
+    }
+
+    section.sem-fundo > p , section.paralax > p {
+        width: 45%;
+    }   
+}
+
+
 @media (max-width:425px) {
 
     html{
@@ -142,3 +154,17 @@ color:wheat;
     }
 }
 
+@media (max-width:300px) {
+
+    html{
+        font-size: 4.2px;
+    }
+
+    section.sem-fundo > p , section.paralax > p {
+        width: 65%;
+    }   
+
+    footer{
+        font-size: 2.5rem;
+    }
+}
