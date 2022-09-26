@@ -8,14 +8,31 @@
     src: url(fonts/Blazed.ttf);
 }
 
-div.fotopedra{
+div.foto{
     height: 100vh;
     background-color: lightgrey;
+    box-shadow: inset 10px 12px 3px rgba(0, 0, 0, 0.603) ;
+}
+
+div#pedra{
     background-image: url(img/Fundo-Pedra.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    box-shadow: inset 10px 12px 3px rgba(0, 0, 0, 0.603) ;
+}
+
+div#angulos{
+    background-image: url(img/Fundo-Colorido.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+div#som{
+    background-image: url(img/Sonoro.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 h1.title{
@@ -28,10 +45,14 @@ h1.title{
     padding-top: 15px;
 }
 
+span.number{
+    color: #d49715;
+}
+
 section.tabelas{
     background-color: #ffffffb7;
-    width: 65%;
-    height: 70vh;
+    width: 60%;
+    height: 75vh;
     margin: auto;
     margin-top: 35px;
     
@@ -45,28 +66,35 @@ section.tabelas table{
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    font-size: 3.5em;
+    font-size: 2.8em;
     text-align: center;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
-div.foto2{
-    height: 100vh;
-    background-color: lightgrey;
-    background-image: url(img/Fundo-Colorido.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+#diferentona thead, tr.media{
+    background-color: grey;
+    color: white;
 }
 
-span.number{
-    color: #d49715;
+#diferentona td.valor{
+    background-color: lightgrey;
+    color: #146600;
 }
+
+
 
 @media (max-width:1300px) {
     h1.title{
-        font-size: 3.7em;
-    }  
+        font-size: 2.8em;
+    }
+
+    section.tabelas{
+        width: 85%;
+    }
+
+    section.tabelas table{
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width:975px) {
@@ -76,10 +104,11 @@ span.number{
 
     section.tabelas{
         width: 85%;
+        height: 75vh;
     }
 
     section.tabelas table{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
 
@@ -103,6 +132,15 @@ span.number{
     }
 }
 
+@media (max-width:575px) {
+
+    #diferentona{
+        font-size: 1.3em;
+    }
+
+    
+}
+
 @media (max-width:425px) {
     h1.title{
         padding-top: 45px;
@@ -120,5 +158,12 @@ span.number{
         width: 95%;
         height: 90%;
 
+    }
+}
+
+@media (max-width:370px) {
+    
+    #diferentona{
+        font-size: 1em;
     }
 }
