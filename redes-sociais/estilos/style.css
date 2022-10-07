@@ -51,3 +51,11 @@ nav a:hover{
 nav > a:hover > h1{
     display: flex;
 }
+
+@media (max-width: 800px) {
+
+    nav a:hover > h1{
+        display: none;
+    } 
+    
+}
