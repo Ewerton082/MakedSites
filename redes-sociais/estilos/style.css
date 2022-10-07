@@ -29,6 +29,7 @@ nav a{
     height: 50px;
     width: 50px;
     text-decoration: none;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.603);
 }
 
 nav > a > img{
@@ -57,5 +58,21 @@ nav > a:hover > h1{
     nav a:hover > h1{
         display: none;
     } 
+    
+}
+
+@media (max-width:470px) {
+    nav{
+        display: flex;
+    }
+
+    nav a{
+        margin: 10px 12px;
+    }
+
+    nav a:hover{
+        margin-left: 12px;
+        margin-top: 20px;
+    }
     
 }
