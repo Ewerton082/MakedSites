@@ -71,12 +71,12 @@ nav > a:hover > h1{
     }
 
     nav a{
-        margin: 10px 12px;
+        margin: 10px 10px;
     }
 
     nav a:hover{
-        margin-left: 12px;
-        margin-top: 20px;
+        transform: translate(0px, 20px);
+        transition:transform .4s;
     }
     
 }
