@@ -81,9 +81,9 @@ nav > a:hover > h1{
 
     section#telefone{
         position: absolute;
-        top: 55%;
+        top: 52%;
         left: 50%;
-        transform: translate(-55%,-50);
+        transform: translate(-52%,-50);
     }
     
 }
