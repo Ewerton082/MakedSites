@@ -3,6 +3,12 @@
     padding: 0%;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+
 body, main{
     width: 100vw;
     height: 98vh;
@@ -86,4 +92,57 @@ nav > a:hover > h1{
         transform: translate(-52%,-50);
     }
     
+}
+
+@media (max-width:380px) {
+    
+    nav a{
+        height: 40px;
+        width: 40px;
+    }
+
+    nav a:hover{
+        transform: translate(0px, 10px);
+        transition:transform .4s;
+    }
+
+    section#telefone img{
+        height: 550px;
+        width: 300px;
+    }
+
+    section iframe{
+        height: 410px;
+        width: 255px;
+    }
+}
+
+@media (max-width:300px) {
+
+    nav a{
+        height: 30px;
+        width: 30px;
+    }
+
+    nav a:hover{
+        transform: translate(0px, 9px);
+        transition:transform .4s;
+    }
+
+    section#telefone img{
+        height: 485px;
+        width: 277px;
+    }
+
+    section iframe{
+        height: 365px;
+        width: 235px;
+    }
+
+    section#telefone{
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-55%,-50);
+    }
 }
