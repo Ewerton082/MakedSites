@@ -73,6 +73,7 @@ nav > a:hover > h1{
 
 @media (max-width:470px) {
     nav{
+        margin-top: 5px;
         display: flex;
     }
 
@@ -95,6 +96,9 @@ nav > a:hover > h1{
 }
 
 @media (max-width:380px) {
+    nav{
+        margin-top: 4px;
+    }
     
     nav a{
         height: 40px;
@@ -118,6 +122,10 @@ nav > a:hover > h1{
 }
 
 @media (max-width:350px) {
+
+    nav{
+        margin-top: 3px;
+    }
 
     nav a{
         height: 37px;
