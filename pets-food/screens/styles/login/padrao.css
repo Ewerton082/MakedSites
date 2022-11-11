@@ -1,0 +1,48 @@
+section#box-form{
+    background-color: #ffffff88;
+    width: 30vw;
+    height: 75vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1#title{
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: .07em;
+    color: #693b1c;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+form#form-login{
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+form label{
+    font-size: 3.5em;
+    padding: 10px;
+}
+
+form input{
+    
+    text-align: center;
+    font-size: 3em;
+    width: 80%;
+    height: 1.5em;
+    border-radius: 2.5em;
+    margin: 10px auto;
+}
+
+form input#enviar{
+    margin-top: 35px;
+    font-size: 2em;
+    width: 50%;
+}
