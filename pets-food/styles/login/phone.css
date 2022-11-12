@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: #ffffff fixed url(../../imgs/Fundo\ loja.png) center center;
+    background-size: contain;
+}
+
+section.center{
+    background-color: #0000007c;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.603);
+    width: 92vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 45px;
+}
+
+h1#title{
+    color: #b35906;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 3px 2px 3px #0000006c;
+}
+
+form#form-login{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+form#form-login > label{
+    padding: 10px;
+    text-align: left;
+    font-size: 1.7em;
+    text-shadow: 2px 1px 2px #0000008e;
+}
+
+form#form-login > input{
+    height: 1.4em;
+    border-radius: 35px;
+    border: 1.5px dashed black;
+    font-size: 2em;
+    text-indent: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397);
+}
+
+input#enviar{
+    width: 70vw;
+    margin: auto;
+    margin-top: 2.4em;
+    background-color: #7a3e16;
+    color: white;
+}
