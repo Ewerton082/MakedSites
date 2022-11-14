@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "menu";
+    src: url(../../fonts/Marhey-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "rajdhani-semibold";
+    src: url(../../fonts/Rajdhani-SemiBold.ttf);
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -15,7 +25,7 @@ body{
 }
 
 section.center{
-    background-color: #0000007c;
+    background-color: #0000005e;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.603);
     width: 92vw;
     height: 90%;
@@ -25,8 +35,9 @@ section.center{
 }
 
 h1#title{
-    color: #b35906;
-    font-size: 4em;
+    font-family: menu;
+    color: #e4870d;
+    font-size: 3.3em;
     text-align: center;
     padding-top: 20px;
     text-shadow: 3px 2px 3px #0000006c;
@@ -40,17 +51,18 @@ form#form-login{
     margin-top: 25px;
 }
 form#form-login > label{
+    font-family: rajdhani-semibold;
     padding: 10px;
     text-align: left;
     font-size: 1.7em;
     text-shadow: 2px 1px 2px #0000008e;
 }
 
-form#form-login > input{
-    height: 1.4em;
+form#form-login > input.dados{
     border-radius: 35px;
     border: 1.5px dashed black;
-    font-size: 2em;
+    font-size: 1.7em;
+    padding: 8px;
     text-indent: 10px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397);
 }
@@ -58,7 +70,19 @@ form#form-login > input{
 input#enviar{
     width: 70vw;
     margin: auto;
-    margin-top: 2.4em;
+    margin-top: 1.5em;
+    padding: 10px;
+    font-size: 1.5em;
+    border-style: none;
     background-color: #7a3e16;
-    color: white;margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 40px;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.473);
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+input#enviar:active{
+    background-color: #b45c22;
 }
