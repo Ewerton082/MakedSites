@@ -1,0 +1,18 @@
+@font-face {
+    font-family: sono;
+    src: url(../fonts/Sono-VariableFont_MONO\,wght.ttf);
+}
+
+@font-face {
+    font-family: flores;
+    src: url(../fonts/FLOWER.ttf);
+}
+
+:root{
+    --lilas: "8c66f1";
+    --roxo: "6455c2";
+    --azul-claro: "7397f9";
+    --laranja: "fba101"
+    --fonte-pad: "sono";
+    --font-titulo: "flores";
+}
