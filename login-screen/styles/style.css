@@ -4,15 +4,127 @@
 }
 
 @font-face {
-    font-family: flores;
-    src: url(../fonts/FLOWER.ttf);
+    font-family: cake;
+    src: url(../fonts/Cream\ Cake.otf);
 }
 
 :root{
-    --lilas: "8c66f1";
-    --roxo: "6455c2";
-    --azul-claro: "7397f9";
-    --laranja: "fba101"
+    --lilas: "#8c66f1";
+    --roxo: "#6455c2";
+    --azul-claro: "#7397f9";
+    --laranja: "#fba101";
     --fonte-pad: "sono";
-    --font-titulo: "flores";
+    --font-titulo: "cake";
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-pad);
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #6455c2, #8c6671);
+}
+
+main{
+    margin: 10vh auto;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+main img{
+    height: 35%;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 3px 3px #000000a8;   
+}
+
+
+section.formulario{
+    width: 95%;
+    height: 55%;
+    margin: 5% auto;
+
+}
+
+section.formulario h1{
+    font-size: 5em;
+    font-family: var(--font-titulo);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section.formulario p{
+    font-size: 1em;
+    text-indent: 30px;
+}
+
+
+form{
+    margin-top: 20px;
+    width: 100%;
+}
+
+div.entrada{
+    background-color: #4d3eb1;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 1px 2px 3px #0000008f;
+}
+
+div.entrada span{
+    color: white;
+    font-size: 2em;
+    background-color: #6455c2;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+div.entrada input{
+    background-color: #82cfaf;
+    width: 70%;
+    border: none;
+    text-align: left;
+    font-size: 1.1em;
+    padding: 15px 9px 2px 0px;
+    border-radius: 6px;
+    line-height: 1.3em;
+}
+
+input.comandos{
+    margin: auto;
+    display: block;
+    background-color: #88a7ff;
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+    border-color: #3759b8;
+}
+
+input#enviar:hover{
+    background-color: #5175d8;
+}
+
+input#esqueci{
+    background-color: #cee5e9;
+    border-color: #498684;
+    color: black;
+}
+
+input#esqueci:hover{
+    background-color: #61aca9;
 }
