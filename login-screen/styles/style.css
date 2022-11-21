@@ -32,7 +32,7 @@ body{
 }
 
 main{
-    margin: 10vh auto;
+    margin: 5vh auto;
     width: 90vw;
     height: 90vh;
     background-color: white;
@@ -105,7 +105,7 @@ input.comandos{
     margin: auto;
     display: block;
     background-color: #88a7ff;
-    width: 70%;
+    width: 80%;
     padding: 10px;
     margin-top: 15px;
     font-size: 1.2em;
