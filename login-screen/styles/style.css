@@ -33,8 +33,8 @@ body{
 
 main{
     margin: 10vh auto;
-    width: 80vw;
-    height: 80vh;
+    width: 90vw;
+    height: 90vh;
     background-color: white;
     border-radius: 25px;
     display: flex;
@@ -42,7 +42,7 @@ main{
 }
 
 main img{
-    height: 35%;
+    height: 40%;
     border-radius: 25px 25px 0px 0px;
     box-shadow: 0px 3px 3px #000000a8;   
 }
@@ -50,16 +50,16 @@ main img{
 
 section.formulario{
     width: 95%;
-    height: 55%;
-    margin: 5% auto;
+    height: 51%;
+    margin: 2% auto;
 
 }
 
 section.formulario h1{
-    font-size: 5em;
-    font-family: var(--font-titulo);
+    font-size: 3em;
+    font-family: cursive;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 section.formulario p{
@@ -75,7 +75,7 @@ form{
 
 div.entrada{
     background-color: #4d3eb1;
-    width: 70%;
+    width: 90%;
     margin: 10px auto;
     border-radius: 20px;
     align-items: center;
@@ -127,4 +127,13 @@ input#esqueci{
 
 input#esqueci:hover{
     background-color: #61aca9;
+}
+
+@media screen and (max-width: 320px) {
+
+    section.formulario p{
+        font-size: .8em;
+        text-indent: 5px;
+    }
+    
 }
