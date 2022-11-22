@@ -1,0 +1,59 @@
+main{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 315px;
+}
+
+main img {
+    height: 100%;
+    width: 40%;
+    border-radius: 25px 0px 0px 25px;
+    box-shadow: 2px 0px 4px rgb(0, 0, 0);
+}
+
+section.formulario{
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 1px;
+}
+
+section.formulario h1{
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+hr{display: block;}
+
+section.formulario p {
+    color: #840bca;
+    text-indent: 0px;
+    width: 96%;
+    margin: auto;
+    font-size: .9em;
+}
+
+div.entrada{
+    height: 40px;
+}
+
+div.entrada span{
+    font-size: 40px;
+    width: 15%;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+div.entrada > input{
+    padding: 0px;
+    line-height: 2.2em;
+    width: 80%;
+    text-align: center;
+    transform: translate(0px, -15px);
+}
+
+input.comandos{
+    padding: 7px;
+    margin: 0px auto 5px auto;
+}
