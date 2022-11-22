@@ -1,3 +1,7 @@
+html{
+    background-image: linear-gradient(to right,#332494, #8c6689 ,#4e71d1);
+}
+
 main{
     display: flex;
     flex-direction: row;
@@ -47,7 +51,7 @@ div.entrada span{
 
 div.entrada > input{
     padding: 0px;
-    line-height: 2.2em;
+    line-height: 2.1em;
     width: 80%;
     text-align: center;
     transform: translate(0px, -15px);
