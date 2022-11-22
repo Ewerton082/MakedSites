@@ -101,6 +101,10 @@ div.entrada input{
     line-height: 1.3em;
 }
 
+div.entrada input:hover{
+    background-color: white;
+}
+
 input.comandos{
     margin: auto;
     display: block;
