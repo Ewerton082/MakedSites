@@ -60,8 +60,8 @@ section.formulario{
 }
 
 section.formulario h1{
-    font-size: 3em;
-    font-family: cursive;
+    font-size: 4em;
+    font-family:var(--font-titulo);
     text-align: center;
     margin-bottom: 8px;
 }

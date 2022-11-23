@@ -1,0 +1,50 @@
+html{
+    background-image: linear-gradient(to right,#332494, #8c6689 ,#4e71d1);
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1020px;
+    height: 425px;
+}
+
+main img{
+    height: 100%;
+    width: 40%;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: none;
+}
+
+section.formulario{
+    margin: 0px;
+    width: 60%;
+}
+
+section.formulario h1{
+    font-family: 4.4em;
+}
+
+section.formulario p{
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+hr{display: block;}
+
+div.entrada{
+    width: 80%;
+    height: 60px;
+}
+
+div.entrada span{
+    font-size: 2.5em;
+    height: 100%;
+}
+
+div.entrada input{
+    font-size: 2em;
+    padding: 4px;
+    width: 80%;
+    transform: translate(0px, -10px);
+}
