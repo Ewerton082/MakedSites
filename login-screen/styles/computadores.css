@@ -9,7 +9,7 @@ main{
     height: 425px;
 }
 
-main img{
+main div.img{
     height: 100%;
     width: 40%;
     border-radius: 0px 25px 25px 0px;

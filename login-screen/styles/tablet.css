@@ -9,7 +9,7 @@ main{
     height: 315px;
 }
 
-main img {
+main div.img {
     height: 100%;
     width: 40%;
     border-radius: 25px 0px 0px 25px;
@@ -30,7 +30,7 @@ section.formulario h1{
 hr{display: block;}
 
 section.formulario p {
-    color: #840bca;
+    
     text-indent: 0px;
     width: 96%;
     margin: auto;

@@ -14,7 +14,10 @@
 <body>
     <main class="cartão">
 
-        <img src="imgs/flores.jpg" alt="varios tipos de flores">
+        
+        <div class="img">
+            
+        </div>
 
         <section class="formulario">
 
@@ -25,12 +28,12 @@
             <form action="entrar.php" method="post">
                 <div class="entrada">
                     <span class="material-symbols-outlined">person</span>
-                    <input type="email" placeholder="Seu E-mail" id="email" name="nemail" required>
+                    <input type="email" placeholder="Seu E-mail" id="email" name="nemail" autocomplete="email" required>
                 </div>
 
                 <div class="entrada">
                     <span class="material-symbols-outlined">password</span>
-                    <input type="password" minlength="8" max="20" placeholder="Sua Senha" id="senha" name="nsenha" required>
+                    <input type="password" minlength="8" maxlength="20" placeholder="Sua Senha" id="senha" name="nsenha" autocomplete="current-password" required>
                 </div>
 
                 <input type="submit" id="enviar" class="comandos" name="nenviar" value="Entrar Agora">

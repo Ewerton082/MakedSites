@@ -43,9 +43,15 @@ main{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
-main img{
+main div.img{
+    background: #4d3eb1 url(../imgs/flores.jpg) no-repeat;
+    background-size: cover;
+    background-position: right center;
     height: 40%;
     border-radius: 25px 25px 0px 0px;
     box-shadow: 0px 3px 3px #000000a8;   
@@ -69,6 +75,7 @@ section.formulario h1{
 hr{display: none;}
 
 section.formulario p{
+    color: #840bca;
     font-size: .9em;
     text-indent: 30px;
 }
