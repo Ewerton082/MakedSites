@@ -114,7 +114,7 @@ div.entrada input{
     line-height: 1.3em;
 }
 
-div.entrada input:hover{
+div.entrada input:focus-within{
     background-color: white;
 }
 
