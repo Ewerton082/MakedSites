@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: raj-leve;
+}
+
+@font-face {
+    font-family: raj-leve;
+    src: url(../../../fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: marshey;
+    src: url(../../../fonts/Marhey-SemiBold.ttf);
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../imgs/Fundo\ loja.png);
+    background-position: bottom center;
+    background-size: contain;
+}
+
+section#box{
+    background-color: lightgray;
+    height: 100vh;
+    max-height: 600px;
+    width: 95vw;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.photo{
+    background-image:url(../../../imgs/doguin-login.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 35px 35px 0px 0px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 3px #0000007c;
+    display: block;
+    height: 30%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3em;
+    font-family: marshey;
+    text-shadow: 1px 2px 3px #00000093;
+}
+
+div.box-input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #E0B992;
+    margin: 10px 5%;
+    padding:0px 3px 5px 3px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+label{
+    text-indent: 10px;
+    font-size: 1.3em;
+}
+
+input.entry{
+    margin-top: 5px;
+    padding: 5px 0px;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+input#enviar{
+    font-size: 2em;
+    padding: 15px;
+    width: 80%;
+    border-radius: 25px;
+    background-color: #c77f37;
+    margin: 5% 10%;
+}
+
+
+@media screen and (max-width:320px){
+
+    div.photo{
+        background-position: center right;
+    }
+}
