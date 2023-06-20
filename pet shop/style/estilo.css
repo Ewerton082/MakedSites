@@ -1,3 +1,8 @@
+@font-face {
+    font-family: retro;
+    src: url(../font/Magic\ Retro.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,12 +12,13 @@
 div#card{
     background-image: url(../imgs/phone-fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
     margin: auto;
     width: 100%;
     max-width: 600px;
-    height: 110vh;
+    height: 100%;
+    overflow: hidden;
 }
 
 div#white{
@@ -31,8 +37,8 @@ div#white{
 
 #bio{
     margin-top: 25px;
-    font-size: 1.3em;
-    font-family: fantasy;
+    font-size: 1.7em;
+    font-family: retro;
 }
 
 a{
@@ -70,8 +76,21 @@ img.reviews{
     border-radius: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 601px) {
     body{
-        background-color: #f8e6e6 ;
+        background-image: url(../imgs/fundo-pc.jpg) ;
+    }
+
+    div#card{
+        background-image: none;
+    }
+
+    div#white{
+        background-color: rgba(255, 255, 255, 0.788);
+        height: 80%;
+        margin-top: 20%;
+        border-radius: 60px;
+        padding: 30px 0px;
+        box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.342);
     }
 }
