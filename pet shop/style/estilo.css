@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div#card{
+    background-image: url(../imgs/phone-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#perfil{
+    border: 1px solid brown;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.26);
+}
+
+#bio{
+    margin-top: 25px;
+    font-size: 1.3em;
+    font-family: fantasy;
+}
+
+a{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 3px 15px;
+    border-radius: 25px;
+}
+
+a:hover{
+    background-color: rgba(231, 209, 7, 0.322);
+}
+
+a:active{background-color: rgba(172, 255, 47, 0.342);}
+
+a > img{width: 60px;}
+
+a > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+img.reviews{
+    margin-top: 25px;
+    border-radius: 0;
+}
